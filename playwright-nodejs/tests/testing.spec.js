@@ -22,3 +22,5 @@ test('homepage has Playwright in title and get started link linking to the intro
 function delay(time) {
   return new Promise(function(resolve) { 
       setTimeout(resolve, time)
+  });
+}
